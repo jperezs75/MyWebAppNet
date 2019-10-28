@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Windows Containers on AWS</h1>
+    <p class="alert-success">Your host ID is: <b>@ViewBag.HostName</b></p>
+    <p class="alert-info">@DateTime.Now.ToString("hh:mm:ss tt")</p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Getting started</h2>
+        <p>
+            Amazon Elastic Container Service (Amazon ECS) is a highly scalable, fast, container management service that makes it easy to run, stop, and manage Docker containers on a cluster. You can host your cluster on a serverless infrastructure that is managed by Amazon ECS by launching your services or tasks using the Fargate launch type.
+        </p>
+        <p><a class="btn btn-default" href="https://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Windows Containers on AWS</h2>
+        <p>Amazon ECS supports Windows containers on container instances that are launched with the Amazon ECS-optimized Windows AMI. </p>
+        <p><a class="btn btn-default" href="https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ECS_Windows.html">Learn more &raquo;</a></p>
+    </div>
+</div>

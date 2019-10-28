@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  mywebapp:
+    image: mywebapp
+    build:
+      context: .\MyWebApp
+      dockerfile: Dockerfile
